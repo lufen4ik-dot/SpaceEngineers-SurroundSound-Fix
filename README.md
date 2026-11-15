@@ -1,4 +1,4 @@
-Fixes inverted 5.1 / 7.1 surround sound channels in Space Engineers (runtime Harmony patch via AppDomainManager
+Fixes inverted 5.1 / 7.1 surround sound channels in Space Engineers (runtime Harmony patch via AppDomainManager)
 
 After years of dealing with broken 5.1 / 7.1 surround sound in Space Engineers and spending countless hours digging through the audio engine, this runtime patch finally fixes positional audio without modifying any original game files or requiring Steam / third-party plugin loaders.
 
@@ -28,7 +28,7 @@ This fix uses Windows' built-in .NET Framework `AppDomainManager` hook (`APPDOMA
 If you prefer to compile `AudioFix.cs` yourself using the built-in Windows C# compiler, run in `cmd` (replace `YOUR_GAME_PATH\Bin64` with your actual path):
 
 ```cmd
-C:\Windows\Microsoft.NET\Framework64\v4.\(0.30319\csc.\)exe /target:library /out:"YOUR_GAME_PATH\Bin64\AudioFix.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\netstandard.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.dll" /r:"YOUR_GAME_PATH\Bin64\0Harmony.dll" /r:"YOUR_GAME_PATH\Bin64\VRage.Math.dll" AudioFix.cs
+C:\Windows\Microsoft.NET\Framework64\v4.\v4.0.30319\csc.exe /target:library /out:"YOUR_GAME_PATH\Bin64\AudioFix.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\netstandard.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.dll" /r:"YOUR_GAME_PATH\Bin64\0Harmony.dll" /r:"YOUR_GAME_PATH\Bin64\VRage.Math.dll" AudioFix.cs
 ```
 
 ---
