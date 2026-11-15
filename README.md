@@ -28,7 +28,7 @@ This fix uses Windows' built-in .NET Framework `AppDomainManager` hook (`APPDOMA
 If you prefer to compile `AudioFix.cs` yourself using the built-in Windows C# compiler, run in `cmd` (replace `YOUR_GAME_PATH\Bin64` with your actual path):
 
 ```cmd
-C:\Windows\Microsoft.NET\Framework64\v4.\v4.0.30319\csc.exe /target:library /out:"YOUR_GAME_PATH\Bin64\AudioFix.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\netstandard.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.dll" /r:"YOUR_GAME_PATH\Bin64\0Harmony.dll" /r:"YOUR_GAME_PATH\Bin64\VRage.Math.dll" AudioFix.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:library /out:"YOUR_GAME_PATH\Bin64\AudioFix.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\netstandard.dll" /r:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Runtime.dll" /r:"YOUR_GAME_PATH\Bin64\0Harmony.dll" /r:"YOUR_GAME_PATH\Bin64\VRage.Math.dll" AudioFix.cs
 ```
 
 ---
