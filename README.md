@@ -15,7 +15,7 @@ This fix uses Windows' built-in .NET Framework `AppDomainManager` hook (`APPDOMA
 ## Quick Installation (Pre-compiled)
 
 1. Download **`AudioFix.dll`** and **`Start_SE_AudioFix.bat`** from this repository.
-2. Download the latest **Harmony** release from GitHub (`(https://github.com/pardeike/Harmony/releases/tag/v2.4.3)`) and extract **`0Harmony.dll`** from the `net472` (or `net48`) folder.
+2. Download the latest **Harmony** release from GitHub (https://github.com/pardeike/Harmony/releases/tag/v2.4.3) and extract **`0Harmony.dll`** from the `net472` (or `net48`) folder.
 3. Place all three files directly into your game's **`Bin64`** folder (next to `SpaceEngineers.exe`):
    * `AudioFix.dll`
    * `Start_SE_AudioFix.bat`
