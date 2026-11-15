@@ -1,6 +1,4 @@
-# SpaceEngineers-SurroundSound-Fix
 Fixes inverted 5.1 / 7.1 surround sound channels in Space Engineers (runtime Harmony patch via AppDomainManager
-# Space Engineers — 5.1 / 7.1 Surround Sound Channel Fix
 
 After years of dealing with broken 5.1 / 7.1 surround sound in Space Engineers and spending countless hours digging through the audio engine, this runtime patch finally fixes positional audio without modifying any original game files or requiring Steam / third-party plugin loaders.
 
@@ -17,7 +15,7 @@ This fix uses Windows' built-in .NET Framework `AppDomainManager` hook (`APPDOMA
 ## Quick Installation (Pre-compiled)
 
 1. Download **`AudioFix.dll`** and **`Start_SE_AudioFix.bat`** from this repository.
-2. Download the latest **Harmony** release from GitHub (`pardeike/Harmony` -> `Harmony-Fat.x.x.x.x.zip`) and extract **`0Harmony.dll`** from the `net472` (or `net48`) folder.
+2. Download the latest **Harmony** release from GitHub (`(https://github.com/pardeike/Harmony/releases/tag/v2.4.3)`) and extract **`0Harmony.dll`** from the `net472` (or `net48`) folder.
 3. Place all three files directly into your game's **`Bin64`** folder (next to `SpaceEngineers.exe`):
    * `AudioFix.dll`
    * `Start_SE_AudioFix.bat`
